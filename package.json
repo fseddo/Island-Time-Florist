@@ -1,7 +1,7 @@
 {
   "name": "flower-shop",
   "version": "2.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
+  "description": "Local flower shop!",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -20,7 +20,6 @@
   "author": "Fullstack Academy of Code",
   "license": "MIT",
   "dependencies": {
-    "@craco/craco": "^6.4.0",
     "axios": "^0.21.1",
     "bcrypt": "^5.0.0",
     "chalk": "^4.1.2",
@@ -59,7 +58,6 @@
     "redux-mock-store": "^1.5.3",
     "redux-thunk": "^2.3.0",
     "supertest": "^4.0.2",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "webpack": "^5.15.0",
     "webpack-cli": "^4.3.1"
   }
