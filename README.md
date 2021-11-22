@@ -1,38 +1,37 @@
-# FS-App-Template
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/fsedd/Island-Time-Florist">
+    <img src="/public/Media/logo.png" alt="Logo" width="700" height="250">
+  </a>
+
+  <p align="center">
+    <a href="https://github.com/fseddo/Island-Time-Florist"><strong>Explore the docs »</strong></a>
+    <br />
+  </p>
+</div>
 
 
-## Tier 1: MVP Shopping Experience
 
-### As a customer/visitor, I want to be able to:
-- [X] access a deployed version of the website so I can browse and purchase products.
-- [X] view all available products so I can pick from a variety.
-- [X] view a single product so I can see more details.
-- [X] add a product to my cart so I can collect my desired products in one place.
-- [X] edit my cart if I change my mind:
-  - [X] change the quantity of a product in my cart.
-  - [X] remove a product in my cart.
-  - [X] *No one else should be able to edit my cart except me.*
-- [ ] "checkout" the items in my cart so I can purchase my desired goods.
-  - [ ] *Think of a typical user experience on popular websites from a guest user and logged-in user perspective.*
-  - [ ] *You can just start with by simulating the experience of checking out with a simple confirmation page.*
-- [X] create an account so I can have a logged-in experience.
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<div>
+    <p>
+    Hey there! We wanted to create an immersive experience that simulates a typical boutique flower shop's website. You can navigate the site as a guest or create a user account to save your cart information. Our front-end is managed with react components and redux stores to minimize while our backend is built in postgreSQL. We have some gatekeeping middleware set up using JWT's to protect our routes and we utilized local storage to get our guest cart working. Enjoy browsing!
+  </p>
+    <br>
+  <br>
+  <a href="https://island-time-florist.herokuapp.com"><img src = "https://f.ipv7.sh/qxqqpd.png"></a>
+</div>
 
-### As a logged-in customer, I want to be able to:
-- [X] have a persistent cart so I can revisit and pick up where I left off.
-  - [X] *Logged-in-user across multiple devices: I'm logged in on my mobile device and add some items to my cart. When I open the browser on my laptop and log in, I want to see those items in my cart.*
-  - [X] *No one else should be able to edit my cart except me.*
+<br>
+<br>
 
-### As an administrator, I want to be able to:
-- [X] have validated data to ensure reliability.
-  - [X] *i.e. each customer that creates an account should only be able to do so once with a single email address.*
-- [X] have full rights to make backend requests to add, edit, and remove products.
-  - [X] *No one else should have access.*
-- [X] view user information.
-  - [X] *No one else should have access.*
+### Built With
 
-### As an engineer, I want to:
-- [X] have a well-seeded database so that I am able to simulate a number of different scenarios for the user stories below.
-  - [X] *By doing this, you really set yourselves up to tackle many of the points throughout the tiers. In the long run, this will save you, potentially, tons of time.*
-  - [X] *For example, seed hundreds of products with dummy data so that when you get to the “pagination” user story, you won’t have to worry about adding more products.*
-  - [X] *Likewise, add a bunch of users with products in their carts so editing the cart can be worked on without already having the “add to cart” functionality built out.*
-- [X] user data to be secure so that no one can unrightfully manipulate information.
+* [React.js](https://reactjs.org/)
+* [Redux.js](https://redux.js.org/)
+* [Express](https://expressjs.com/)
+* [Sequelize](https://sequelize.org/)
+* [PostgreSQL](https://www.postgresql.org/)
+* [Heroku](https://heroku.com)
